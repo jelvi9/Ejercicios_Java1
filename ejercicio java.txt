@@ -1,0 +1,22 @@
+package Ejercicio_Java.java;
+
+import java.util.Scanner;
+
+
+public class metodoNumMenor {
+    
+
+   static int metodoNumMenor (int numero[])
+   {
+   
+       int menor;
+       menor=numero[0];
+       for(int i=0; i<numero.length;i++)
+       {
+       
+           if(numero[i]<menor)menor=numero[i];
+        }
+       return menor;
+          
+    }
+}
